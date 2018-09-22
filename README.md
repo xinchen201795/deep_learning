@@ -26,3 +26,4 @@ tf.random_normal([2,3],stddev = 2)会产生一个2* 3的矩阵，矩阵中的元
 在每次迭代的开始，首先需要选取一小部分训练数据，这一小部分数据叫做一个batch。基于预测值和真实值之间的差距，反向传播算法会相应更新神经网络参数的取值，使得在这个batch上神经网络模型的预测结果与真实答案更接近。
 * placeholder定义一个需要指定类型的位置，不需要增加节点计算  
 [placeholder前向传播](https://github.com/xinchen201795/deep_learning/blob/master/placeholder前向传播.ipynb)
+[损失函数]（https://github.com/xinchen201795/deep_learning/blob/master/损失函数.ipynb）
