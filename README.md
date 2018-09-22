@@ -2,7 +2,7 @@
 在大部分的情况下，逻辑回归算法的效果除了依赖于训练数据，也依赖于从数据中提取的特征。假设我们从邮件中抽取的特征只有邮件发送的时间，那么即使有再多的训练数据，逻辑回归算法也无法很好地利用。
 
 深度学习解决的核心问题之一就是自动的将简单的特征组合成更加复杂的特征，并使用这些组合特征解决问题。深度学习除了可以学习特征和任务之间的关联以外，还能自动从简单特征中提取更加复杂的特征。  
-[张量（tensor）](https://github.com/xinchen201795/deep_learning/blob/master/tensorflow1.ipynb)
+[张量（tensor）](https://github.com/xinchen201795/deep_learning/blob/master/tensorflow1.ipynb)  
 一个张量主要保存了三个属性：姓名（name）,维度（shape）和类型（type）
 * 命名：node:src_output node为计算节点的名称，src_output表示来自节点的第几个输出（编号从0开始）。 
 * shape =(2.)说明是一个一维数组，这个数组的长度为2.
