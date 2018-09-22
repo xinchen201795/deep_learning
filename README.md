@@ -13,8 +13,8 @@
 相邻两层之间任意两个节点之间都有连接  
 神经网络的前向传播需要三部分信息：  
 1. 神经网络的输入 从实体中提取的特征向量
-2. 神经网络的连接结构，在tensorflow中通过矩阵乘法实现神经网络的前向传播过程：
-a = tf.nn.relu(tf.matmul(x,w1)+b1)
+2. 神经网络的连接结构，在tensorflow中通过矩阵乘法实现神经网络的前向传播过程：  
+a = tf.nn.relu(tf.matmul(x,w1)+b1)  
 y = tf.nn.relu(tf.matmul(a,w2)+b2)  
 没有定义w1,w2,b1,b2  
 TensorFlow通过变量（tf,Variable）来保存和更新神经网络中的参数，比如定义w1：
