@@ -21,3 +21,5 @@ y = tf.nn.relu(tf.matmul(a,w2)+b2)
 TensorFlow通过变量（tf,Variable）来保存和更新神经网络中的参数，比如定义w1：
 weights = tf.Variable(tf.random_normal([2,3],stddev = 2))  
 tf.random_normal([2,3],stddev = 2)会产生一个2* 3的矩阵，矩阵中的元素均值为0，标准差为2
+## [tensorflow的反向传播]
+！[tensorflow]的反向传播（https://github.com/xinchen201795/deep_learning/blob/master/反向传播.png）
