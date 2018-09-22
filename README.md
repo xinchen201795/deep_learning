@@ -11,6 +11,7 @@
 神经元结构
 ## 全连接神经网络
 相邻两层之间任意两个节点之间都有连接  
+## [tensorflow的前向传播](https://github.com/xinchen201795/deep_learning/blob/master/tensorflow前向传播.ipynb)
 神经网络的前向传播需要三部分信息：  
 1. 神经网络的输入 从实体中提取的特征向量
 2. 神经网络的连接结构，在tensorflow中通过矩阵乘法实现神经网络的前向传播过程：  
