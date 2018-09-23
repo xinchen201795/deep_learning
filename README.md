@@ -27,3 +27,7 @@ tf.random_normal([2,3],stddev = 2)会产生一个2* 3的矩阵，矩阵中的元
 * placeholder定义一个需要指定类型的位置，不需要增加节点计算  
 [placeholder前向传播](https://github.com/xinchen201795/deep_learning/blob/master/placeholder前向传播.ipynb)  [损失函数](https://github.com/xinchen201795/deep_learning/blob/master/损失函数.ipynb)  
 比较常用的优化方法有:tf.train.GradientDescentOptimizer,class tf.train.AdamOptimizer和tf.train.MomentumOptimizer.
+## 训练神经网络模型的常见方法
+* 梯度下降算法
+反向传播算法给出一个高效的方式在所有参数上使用梯度下降算法，从而使神经网络模型在训练数据集上的损失函数尽可能小，学习率为每次参数移动的幅度。  
+为加速计算过程，可选择随机梯度下降算法（甚至可能无法达到局部最优）
